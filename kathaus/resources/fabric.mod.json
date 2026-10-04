@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "openloader",
+  "version": "26.2.0",
+  "name": "Open Loader",
+  "description": "An open source loader for custom resources and data! (KatHaus 26.2 port of Darkhax's Open Loader)",
+  "authors": ["Darkhax"],
+  "contact": {
+    "sources": "https://github.com/Darkhax-Minecraft/Open-Loader",
+    "issues": "https://github.com/Darkhax-Minecraft/Open-Loader/issues"
+  },
+  "license": "LGPL-2.1-only",
+  "icon": "logo_openloader.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.darkhax.openloader.fabric.impl.FabricMod"]
+  },
+  "mixins": ["openloader.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "prickle": ">=26.2.0.3"
+  }
+}
